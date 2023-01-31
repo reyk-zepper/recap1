@@ -3,10 +3,29 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .header {
   display: flex;
   border: 2px solid #111;
   margin: 10px;
   padding: 10px;
   justify-content: center;
+
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.icon {
+  height: 25px;
+  width: auto;
+}
+
+.footer {
+  border: 2px solid #111;
+  margin: 10px;
+  padding: 10px;
 }
