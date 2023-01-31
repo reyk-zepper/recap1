@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 .question-card {
   border: 1px solid #111;
   margin: 25px;
@@ -58,14 +57,14 @@
   position: absolute;
   top: -15px;
   left: 400px;
-
+}
 .header {
   display: flex;
   border: 2px solid #111;
   margin: 10px;
   padding: 10px;
   justify-content: center;
-
+}
 
 .navigation {
   display: flex;
