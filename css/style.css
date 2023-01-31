@@ -4,6 +4,61 @@
   box-sizing: border-box;
 }
 
+
+.question-card {
+  border: 1px solid #111;
+  margin: 25px;
+  padding: 10px;
+  height: 320px;
+  width: 450px;
+  box-shadow: 10px 5px 5px #999;
+}
+
+.question-box {
+  display: flex;
+  justify-content: center;
+  margin: 35px;
+}
+
+.question-text {
+  font-size: 25px;
+}
+
+.btn-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+.btn-answer {
+  height: 50px;
+  width: 160px;
+}
+.answer-card {
+  border: 1px solid #111;
+  padding: 6px;
+  border-radius: 6px;
+  background-color: #999;
+}
+
+.answers {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.bookmark-icon {
+  height: 40px;
+  width: auto;
+}
+
+.full-card {
+  position: relative;
+}
+
+.bookmark-icon {
+  position: absolute;
+  top: -15px;
+  left: 400px;
+
 .header {
   display: flex;
   border: 2px solid #111;
